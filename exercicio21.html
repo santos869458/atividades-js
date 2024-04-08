@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 21 - Média Ponderada</title>
+</head>
+<style>
+    body{
+        background-color: brown;
+        text-align: center;
+    }
+</style>
+<body>
+    <h1>Exercício 21 - Média Ponderada</h1>
+    
+    <script>
+       
+        var nota1 = 8; 
+        var nota2 = 7; 
+        var peso1 = 0.3; 
+
+        
+        var mediaPonderada = (nota1 * peso1 + nota2 * (1 - peso1)).toFixed(2);
+
+        
+        window.document.write("<p>A média ponderada das notas é: " + mediaPonderada + "</p>");
+    </script>
+</body>
+</html>

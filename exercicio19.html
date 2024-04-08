@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 19 </title>
+</head>
+<style>
+    body{
+        background-color: brown;
+        text-align: center;
+    }
+</style>
+<body>
+    <h1>Exercício 19 - Verificação de Múltiplo</h1>
+    
+    <script>
+       
+        var numero5 = 21; 
+       
+        var multiploDe7 = numero5 % 7 === 0;
+        var multiploDe11 = numero5 % 11 === 0;
+
+        
+        if (multiploDe7 || multiploDe11) {
+            window.document.write("<p>O número " + numero5 + " é múltiplo de 7 ou 11.</p>");
+        } else {
+            window.document.write("<p>O número " + numero5 + " não é múltiplo de 7 nem de 11.</p>");
+        }
+    </script>
+</body>
+</html>
